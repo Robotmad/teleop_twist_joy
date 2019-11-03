@@ -5,6 +5,7 @@
   
   <-ode pkg="joy" type="joy_node" name="joy_node">
     <param name="dev" value="$(arg joy_dev)" />
+    <param name="dev_ff" value="" />
     <param name="deadzone" value="0.3" />
     <param name="autorepeat_rate" value="20" />
   </node>
